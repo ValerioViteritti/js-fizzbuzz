@@ -6,7 +6,7 @@
 
 // Creo dei div
 let square = document.createElement('div');
-square.className = ('d-flex flex-wrap justify-content-center align-items-center gap-2')
+square.className = ('d-flex flex-wrap justify-content-center align-items-center gap-4')
 
 
 let varianti = '';
@@ -23,14 +23,9 @@ for (let i = 1; i <= 100; i++){
 
             varianti += `<div class="xxx fizzbuzz">${'FIZZBUZZ'}</div>`;
 
-            
-
-
-
+        
         } else if(i % 3 === 0){
             varianti += `<div class="xxx fizz">${'FIZZ'}</div>`;
-
-
 
 
         } else if(i % 5 === 0){
@@ -44,7 +39,11 @@ for (let i = 1; i <= 100; i++){
     
     console.log(i);
     
-    console.log();
+    console.log("FIZZBUZZ");
+
+    console.log("FIZZ");
+
+    console.log("BUZZ");
     
 }
 

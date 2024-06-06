@@ -42,6 +42,17 @@ div{
     width: 100px;
     background-color: aquamarine;
 }
+.fizzbuzz{
+    background-color: rgb(42, 81, 165);
+}
+
+.fizz{
+    background-color: crimson;
+}
+
+.buzz{
+    background-color: deeppink;
+}
 
 
 
